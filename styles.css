@@ -41,7 +41,6 @@ h1 .cursiva {
     color: #ffffff; /* Color amarillo */
 }
 
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -49,15 +48,34 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    position: relative; /* Asegura que los elementos ::before estén posicionados correctamente */
+    padding: 10px 15px; /* Ajusta el relleno según sea necesario */
+    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+    border-radius: 5px; /* Esto agrega bordes redondeados para que se vea más como un cuadrado */
+    display: inline-block; /* Esto asegura que los elementos <li> estén en línea */
 }
 
-nav ul li a {
-    color: #ffffff; /* Marrón oscuro */
-    text-decoration: none;
-    transition: color 0.3s ease;
+nav ul li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f0f0f0; /* Cambia esto al color de fondo que desees */
+    border-radius: inherit; /* Hereda el borde redondeado del elemento <li> */
+    z-index: -1; /* Asegura que la capa de fondo esté detrás del texto */
+    filter: blur(5px); /* Esto aplica un efecto de borrosidad al fondo */
 }
+
+/* Estilos para el texto */
+nav ul li a {
+    color: #000; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+/* Agrega cualquier estilo adicional que desees */
+
 
 nav ul li a:hover {
     color: #736650; /* Marrón claro */
