@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url('pagina emi/imagenesanima/bannner anima.jpg');
+    background-image: url('file:///C:/Users/Emma/Pictures/arbol6.jpg');
     background-size: cover;
     background-position: center;
     color: #ffffff; 
@@ -27,18 +27,11 @@ header .logo {
     margin-right: 10px;
 }
 
-h1 {
+header h1 {
     margin: 0;
+    float: left;
     font-weight: 700;
-    font-size: 36px;
-    color: #ffffff; /* Color blanco */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
     font-family: 'Caveat', cursive;
-}
-
-h1 .cursiva {
-    font-style: italic;
-    color: #ffffff; /* Color amarillo */
 }
 
 nav ul {
@@ -48,33 +41,17 @@ nav ul {
 }
 
 nav ul li {
-    position: relative; /* Asegura que los elementos ::before estén posicionados correctamente */
+    background: rgba(71, 43, 3, 0.541); /* Color verdoso con transparencia */
     padding: 10px 15px; /* Ajusta el relleno según sea necesario */
     margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
     border-radius: 5px; /* Esto agrega bordes redondeados para que se vea más como un cuadrado */
     display: inline-block; /* Esto asegura que los elementos <li> estén en línea */
 }
 
-nav ul li::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #f0f0f0; /* Cambia esto al color de fondo que desees */
-    border-radius: inherit; /* Hereda el borde redondeado del elemento <li> */
-    z-index: -1; /* Asegura que la capa de fondo esté detrás del texto */
-    filter: blur(5px); /* Esto aplica un efecto de borrosidad al fondo */
-}
-
-/* Estilos para el texto */
 nav ul li a {
-    color: #000; /* Color del texto */
+    color: #ffffff; /* Color del texto */
     text-decoration: none; /* Quita el subrayado del enlace */
 }
-
-/* Agrega cualquier estilo adicional que desees */
 
 
 nav ul li a:hover {
@@ -148,10 +125,11 @@ footer {
 #iniciar-sesion form {
     max-width: 400px;
     margin: 0 auto;
-    padding: 40px;
-    background-color: #ffffff; /* Fondo blanco */
-    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo gris claro */
+    border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el contenido del formulario */
 }
 
 #iniciar-sesion h2 {
@@ -162,12 +140,11 @@ footer {
 
 #iniciar-sesion input[type="text"],
 #iniciar-sesion input[type="password"] {
-    width: calc(100% - 20px);
-    padding: 15px;
-    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    outline: none; /* Eliminar borde de enfoque */
 }
 
 #iniciar-sesion input[type="submit"] {
@@ -178,7 +155,6 @@ footer {
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 #iniciar-sesion input[type="submit"]:hover {
@@ -195,10 +171,11 @@ footer {
 #crear-cuenta form {
     max-width: 400px;
     margin: 0 auto;
-    padding: 40px;
-    background-color: #ffffff; /* Fondo blanco */
-    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo gris claro */
+    border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el contenido del formulario */
 }
 
 #crear-cuenta h2 {
@@ -210,12 +187,11 @@ footer {
 #crear-cuenta input[type="text"],
 #crear-cuenta input[type="email"],
 #crear-cuenta input[type="password"] {
-    width: calc(100% - 20px);
-    padding: 15px;
-    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    outline: none; /* Eliminar borde de enfoque */
 }
 
 #crear-cuenta input[type="submit"] {
@@ -226,7 +202,6 @@ footer {
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 #crear-cuenta input[type="submit"]:hover {
