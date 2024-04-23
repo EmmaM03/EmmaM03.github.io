@@ -1,9 +1,3 @@
-<?php
-// Definir la variable $usuario_no_autenticado
-$usuario_no_autenticado = true;
-
-// Resto de tu código PHP
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,15 +17,6 @@ $usuario_no_autenticado = true;
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#cursos">Cursos</a></li>
                     <li><a href="#contacto">Contacto</a></li>
-                    <!-- Verificar si el usuario ha iniciado sesión -->
-                    <?php
-                        if ($usuario_no_autenticado) {
-                            echo '<li><a href="javascript:void(0);" onclick="openTab(event, \'iniciar-sesion\')">Iniciar Sesión</a></li>';
-                            echo '<li><a href="javascript:void(0);" onclick="openTab(event, \'crear-cuenta\')">Crear Cuenta</a></li>';
-                        } else {
-                            // Mostrar otras opciones o menús para usuarios autenticados
-                        }
-                    ?>
                 </ul>
             </nav>
         </div>
