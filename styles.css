@@ -35,7 +35,7 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
 }
 
-.cursiva {
+h1 .cursiva {
     font-style: italic;
     color: #4E3403; /* Color amarillo */
 }
