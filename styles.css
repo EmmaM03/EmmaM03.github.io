@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #b5a184; /* Crema claro */
+    background-color: #e9dcc9; /* Crema claro */
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url('file:///C:/Users/Emma/Pictures/arbol6.jpg');
+    background-image: url('pagina emi/imagenesanima/bannner anima.jpg');
     background-size: cover;
     background-position: center;
     color: #ffffff; 
@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav ul li {
-    background: rgba(71, 43, 3, 0.541); /* Color verdoso con transparencia */
+    background: rgba(46, 27, 1, 0.541); /* Color verdoso con transparencia */
     padding: 10px 15px; /* Ajusta el relleno según sea necesario */
     margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
     border-radius: 5px; /* Esto agrega bordes redondeados para que se vea más como un cuadrado */
@@ -95,7 +95,7 @@ h2 {
 
 .btn-comprar {
     display: inline-block;
-    background-color: #8ebf75; /* Verde claro */
+    background-color: #3e3227; /* marron oscuro */
     color: #fff;
     padding: 15px 30px;
     text-decoration: none;
@@ -105,12 +105,12 @@ h2 {
 }
 
 .btn-comprar:hover {
-    background-color: #6c9e58; /* Verde más oscuro */
+    background-color: #3e3227; /* marron oscuro */
 }
 
 footer {
-    background-color: #8ebf75; /* Verde claro */
-    color: #3e3227; /* Marrón oscuro */
+    background-color: #3e3227; /* marron oscuro */
+    color: #ffffff; /* Marrón oscuro */
     text-align: center;
     padding: 20px 0;
 }
@@ -148,7 +148,7 @@ footer {
 }
 
 #iniciar-sesion input[type="submit"] {
-    background-color: #8ebf75; /* Verde claro */
+    background-color: #3e3227; /* Verde claro */
     color: #fff;
     border: none;
     padding: 15px 0;
@@ -158,7 +158,7 @@ footer {
 }
 
 #iniciar-sesion input[type="submit"]:hover {
-    background-color: #6c9e58; /* Verde más oscuro */
+    background-color: #3e3227; /* Verde más oscuro */
 }
 
 /* Estilos para la sección de crear cuenta */
@@ -195,7 +195,7 @@ footer {
 }
 
 #crear-cuenta input[type="submit"] {
-    background-color: #8ebf75; /* Verde claro */
+    background-color: #3e3227; /* Verde claro */
     color: #fff;
     border: none;
     padding: 15px 0;
@@ -205,5 +205,5 @@ footer {
 }
 
 #crear-cuenta input[type="submit"]:hover {
-    background-color: #6c9e58; /* Verde más oscuro */
+    background-color: #3e3227; /* Verde más oscuro */
 }
