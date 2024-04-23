@@ -27,11 +27,19 @@ header .logo {
     margin-right: 10px;
 }
 
-header h1 {
+h1 {
     margin: 0;
-    float: left;
     font-weight: 700;
+    font-size: 36px;
+    color: #ffffff; /* Color blanco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
 }
+
+.cursiva {
+    font-style: italic;
+    color: #4E3403; /* Color amarillo */
+}
+
 
 nav ul {
     list-style-type: none;
