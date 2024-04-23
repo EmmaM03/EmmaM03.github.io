@@ -31,13 +31,13 @@ h1 {
     margin: 0;
     font-weight: 700;
     font-size: 36px;
-    color: #4E3403; /* Color blanco */
+    color: #ffffff; /* Color blanco */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
 }
 
 h1 .cursiva {
     font-style: italic;
-    color: #4E3403; /* Color amarillo */
+    color: #ffffff; /* Color amarillo */
 }
 
 
@@ -129,11 +129,10 @@ footer {
 #iniciar-sesion form {
     max-width: 400px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9; /* Fondo gris claro */
-    border-radius: 5px;
+    padding: 40px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centrar el contenido del formulario */
 }
 
 #iniciar-sesion h2 {
@@ -144,11 +143,12 @@ footer {
 
 #iniciar-sesion input[type="text"],
 #iniciar-sesion input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    outline: none; /* Eliminar borde de enfoque */
 }
 
 #iniciar-sesion input[type="submit"] {
@@ -159,6 +159,7 @@ footer {
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #iniciar-sesion input[type="submit"]:hover {
@@ -175,11 +176,10 @@ footer {
 #crear-cuenta form {
     max-width: 400px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9; /* Fondo gris claro */
-    border-radius: 5px;
+    padding: 40px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centrar el contenido del formulario */
 }
 
 #crear-cuenta h2 {
@@ -191,11 +191,12 @@ footer {
 #crear-cuenta input[type="text"],
 #crear-cuenta input[type="email"],
 #crear-cuenta input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    outline: none; /* Eliminar borde de enfoque */
 }
 
 #crear-cuenta input[type="submit"] {
@@ -206,6 +207,7 @@ footer {
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #crear-cuenta input[type="submit"]:hover {
