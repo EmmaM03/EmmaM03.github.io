@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url('pagina emi/imagenesanima/bannner anima.jpg');
+    background-image: url('file:///C:/Users/Emma/Pictures/bannner anima.jpg');
     background-size: cover;
     background-position: center;
     color: #ffffff; 
@@ -52,7 +52,6 @@ nav ul li a {
     color: #ffffff; /* Color del texto */
     text-decoration: none; /* Quita el subrayado del enlace */
 }
-
 
 nav ul li a:hover {
     color: #736650; /* Marrón claro */
@@ -115,95 +114,55 @@ footer {
     padding: 20px 0;
 }
 
-/* Estilos para el formulario de inicio de sesión */
+/* Estilos generales para formularios */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo gris claro */
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el contenido del formulario */
+}
+
+h2 {
+    color: #3e3227; /* Marrón oscuro */
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el título */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px); /* Ajustar el ancho para compensar el padding y border */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3e3227; /* Verde oscuro */
+    color: #fff;
+    border: none;
+    padding: 15px 0;
+    width: calc(100% - 22px); /* Ajustar el ancho para compensar el padding y border */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #736650; /* Marrón claro */
+}
+
+/* Estilos específicos para el formulario de inicio de sesión */
 #iniciar-sesion {
-    text-align: center;
     background-color: #f3f1eb; /* Crema claro */
     padding: 40px 0; /* Ajuste de espacio */
 }
 
-#iniciar-sesion form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9; /* Fondo gris claro */
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centrar el contenido del formulario */
-}
-
-#iniciar-sesion h2 {
-    color: #3e3227; /* Marrón oscuro */
-    margin-bottom: 20px;
-    text-align: center; /* Centrar el título */
-}
-
-#iniciar-sesion input[type="text"],
-#iniciar-sesion input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#iniciar-sesion input[type="submit"] {
-    background-color: #3e3227; /* Verde claro */
-    color: #fff;
-    border: none;
-    padding: 15px 0;
-    width: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#iniciar-sesion input[type="submit"]:hover {
-    background-color: #3e3227; /* Verde más oscuro */
-}
-
-/* Estilos para la sección de crear cuenta */
+/* Estilos específicos para el formulario de crear cuenta */
 #crear-cuenta {
-    text-align: center;
     background-color: #f3f1eb; /* Crema claro */
     padding: 40px 0; /* Ajuste de espacio */
-}
-
-#crear-cuenta form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9; /* Fondo gris claro */
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centrar el contenido del formulario */
-}
-
-#crear-cuenta h2 {
-    color: #3e3227; /* Marrón oscuro */
-    margin-bottom: 20px;
-    text-align: center; /* Centrar el título */
-}
-
-#crear-cuenta input[type="text"],
-#crear-cuenta input[type="email"],
-#crear-cuenta input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#crear-cuenta input[type="submit"] {
-    background-color: #3e3227; /* Verde claro */
-    color: #fff;
-    border: none;
-    padding: 15px 0;
-    width: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#crear-cuenta input[type="submit"]:hover {
-    background-color: #3e3227; /* Verde más oscuro */
 }
