@@ -1,0 +1,205 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f1eb; /* Crema claro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-image: url('file:///C:/Users/Emma/Pictures/arbol6.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; 
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+header .logo {
+    width: 70px; /* Cambia el valor según el tamaño deseado */
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    float: left;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Marrón oscuro */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #736650; /* Marrón claro */
+}
+
+.section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 36px;
+    color: #3e3227; /* Marrón oscuro */
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.video {
+    float: right;
+    width: calc(50% - 20px); /* El 20px es para el margen entre elementos */
+}
+
+.porque-comprar {
+    float: left;
+    width: calc(50% - 20px); /* El 20px es para el margen entre elementos */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.porque-comprar ul {
+    padding-left: 20px;
+}
+
+.porque-comprar li {
+    margin-bottom: 10px;
+}
+
+.btn-comprar {
+    display: inline-block;
+    background-color: #8ebf75; /* Verde claro */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #6c9e58; /* Verde más oscuro */
+}
+
+footer {
+    background-color: #8ebf75; /* Verde claro */
+    color: #3e3227; /* Marrón oscuro */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+#iniciar-sesion {
+    text-align: center;
+    background-color: #f3f1eb; /* Crema claro */
+    padding: 40px 0; /* Ajuste de espacio */
+}
+
+#iniciar-sesion form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo gris claro */
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el contenido del formulario */
+}
+
+#iniciar-sesion h2 {
+    color: #3e3227; /* Marrón oscuro */
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el título */
+}
+
+#iniciar-sesion input[type="text"],
+#iniciar-sesion input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#iniciar-sesion input[type="submit"] {
+    background-color: #8ebf75; /* Verde claro */
+    color: #fff;
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#iniciar-sesion input[type="submit"]:hover {
+    background-color: #6c9e58; /* Verde más oscuro */
+}
+
+/* Estilos para la sección de crear cuenta */
+#crear-cuenta {
+    text-align: center;
+    background-color: #f3f1eb; /* Crema claro */
+    padding: 40px 0; /* Ajuste de espacio */
+}
+
+#crear-cuenta form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo gris claro */
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el contenido del formulario */
+}
+
+#crear-cuenta h2 {
+    color: #3e3227; /* Marrón oscuro */
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el título */
+}
+
+#crear-cuenta input[type="text"],
+#crear-cuenta input[type="email"],
+#crear-cuenta input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#crear-cuenta input[type="submit"] {
+    background-color: #8ebf75; /* Verde claro */
+    color: #fff;
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#crear-cuenta input[type="submit"]:hover {
+    background-color: #6c9e58; /* Verde más oscuro */
+}
