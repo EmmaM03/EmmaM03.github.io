@@ -18,7 +18,6 @@ header {
     color: #ffffff; 
     padding: 20px 0;
     overflow: hidden;
-    font-family: 'Caveat', cursive;
 }
 
 header .logo {
@@ -34,6 +33,7 @@ h1 {
     font-size: 36px;
     color: #ffffff; /* Color blanco */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    font-family: 'Caveat', cursive;
 }
 
 h1 .cursiva {
