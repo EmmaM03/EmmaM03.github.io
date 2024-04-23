@@ -18,6 +18,7 @@ header {
     color: #ffffff; 
     padding: 20px 0;
     overflow: hidden;
+    font-family: 'Caveat', cursive;
 }
 
 header .logo {
