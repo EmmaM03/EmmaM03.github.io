@@ -3,118 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de Cosmética - Anima Cuidado Natural</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Tu Sitio Web</title>
 </head>
 <body>
+    <!-- Contenido visible para los visitantes -->
     <header>
-        <div class="container">
-            <img src="pagina emi/imagenesanima/anima logo.png" alt="Logo" class="logo">
-            <h1>Anima <span class="cursiva">Cuidado Natural</span></h1>
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#cursos">Cursos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Bienvenido a Tu Sitio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+                <li><a href="#">Crear Cuenta</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <section id="descripcion" class="section">
-        <div class="container">
-            <h2>Curso de Cosmética</h2>
-            <p>Descubre cómo crear productos de belleza naturales y libres de químicos con nuestro curso de cosmética.</p>
-        </div>
-    </section>
-    
-    <section id="video1" class="section">
-        <div class="container">
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="porque-comprar">
-                <h3>¿Por qué comprar este curso?</h3>
-                <ul>
-                    <li>Aprende de expertos en cosmética natural.</li>
-                    <li>Acceso ilimitado a material de aprendizaje.</li>
-                    <li>Recetas y técnicas paso a paso.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    
-    <section id="video2" class="section">
-        <div class="container">
-            <div class="porque-comprar">
-                <h3>¿Por qué comprar este curso?</h3>
-                <ul>
-                    <li>Aprende de expertos en cosmética natural.</li>
-                    <li>Acceso ilimitado a material de aprendizaje.</li>
-                    <li>Recetas y técnicas paso a paso.</li>
-                </ul>
-            </div>
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-    
-    <section id="comprar" class="section">
-        <div class="container">
-            <a href="#comprar" class="btn-comprar">Comprar Curso</a>
-        </div>
-    </section>
+    <main>
+        <h2>Contenido Principal</h2>
+        <p>Este es el contenido principal de tu página web.</p>
+    </main>
 
-    <section id="iniciar-sesion" class="section" style="display:none;"> <!-- Nuevo -->
-        <div class="container">
-            <h2>Iniciar Sesión</h2>
-            <form action="procesar_login.php" method="POST">
-                <label for="email">Correo Electrónico:</label><br>
-                <input type="text" id="email" name="email" required><br>
-                <label for="password">Contraseña:</label><br>
-                <input type="password" id="password" name="password" required><br><br>
-                <input type="submit" value="Iniciar Sesión">
-            </form>
-        </div>
-    </section>
-
-    <section id="crear-cuenta" class="section" style="display:none;"> <!-- Nuevo -->
-        <div class="container">
-            <h2>Crear Cuenta</h2>
-            <form action="procesar_registro.php" method="POST">
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" required><br>
-                <label for="email">Correo Electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="password">Contraseña:</label><br>
-                <input type="password" id="password" name="password" required><br><br>
-                <input type="submit" value="Crear Cuenta">
-            </form>
-        </div>
-    </section>
-
+    <!-- Contenido visible para los visitantes -->
     <footer>
-        <div class="container">
-            <p>Derechos de Autor © 2024 - Anima Cuidado Natural</p>
-        </div>
+        <p>Derechos de autor © 2024 Tu Sitio Web. Todos los derechos reservados.</p>
     </footer>
-
-    <script>
-        function openTab(evt, tabName) {
-            var i, sections, links;
-            sections = document.getElementsByClassName("section");
-            for (i = 0; i < sections.length; i++) {
-                sections[i].style.display = "none";
-            }
-            links = document.getElementsByTagName("a");
-            for (i = 0; i < links.length; i++) {
-                links[i].classList.remove("active");
-            }
-            document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.classList.add("active");
-        }
-    </script>
 </body>
 </html>
