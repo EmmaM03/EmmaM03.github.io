@@ -75,6 +75,12 @@ h2 {
     width: 100%; /* Ajustar el ancho al 100% para ocupar todo el espacio */
     float: none; /* Quitar el flotado */
     margin-bottom: 20px; /* Agregar espacio entre elementos */
+    max-width: 100%; /* Establecer un ancho máximo */
+}
+
+.video iframe {
+    width: 100%; /* Ajustar el ancho al 100% */
+    height: auto; /* Altura automática para mantener la proporción */
 }
 
 .porque-comprar {
