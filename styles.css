@@ -70,14 +70,14 @@ h2 {
     font-style: italic;
 }
 
-.video {
-    float: right;
-    width: calc(50% - 20px); /* El 20px es para el margen entre elementos */
+.video,
+.porque-comprar {
+    width: 100%; /* Ajustar el ancho al 100% para ocupar todo el espacio */
+    float: none; /* Quitar el flotado */
+    margin-bottom: 20px; /* Agregar espacio entre elementos */
 }
 
 .porque-comprar {
-    float: left;
-    width: calc(50% - 20px); /* El 20px es para el margen entre elementos */
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -104,11 +104,11 @@ h2 {
 }
 
 .btn-comprar:hover {
-    background-color: #3e3227; /* marron oscuro */
+    background-color: #736650; /* Marrón claro */
 }
 
 footer {
-    background-color: #3e3227; /* marron oscuro */
+    background-color: #3e3227; /* Marrón oscuro */
     color: #ffffff; /* Marrón oscuro */
     text-align: center;
     padding: 20px 0;
@@ -142,7 +142,7 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    background-color: #3e3227; /* Verde oscuro */
+    background-color: #3e3227; /* Marrón oscuro */
     color: #fff;
     border: none;
     padding: 15px 0;
@@ -169,23 +169,6 @@ input[type="submit"]:hover {
 
 /* Estilos generales para dispositivos móviles */
 @media only screen and (max-width: 767px) {
-    header {
-        text-align: center; /* Centrar el contenido */
-        padding: 10px; /* Agregar espacio interno */
-    }
-
-    header .logo {
-        float: none; /* Quitar el flotado */
-        display: block; /* Convertir a bloque para centrar */
-        margin: 0 auto 10px; /* Centrar el logo y agregar espacio en la parte inferior */
-    }
-
-    header h1 {
-        float: none; /* Quitar el flotado */
-        display: block; /* Convertir a bloque para centrar */
-        margin: 0 auto 20px; /* Centrar el texto y agregar espacio en la parte inferior */
-    }
-
     nav ul {
         float: none; /* Quitar el flotado */
         text-align: center; /* Centrar los elementos del menú */
@@ -195,9 +178,17 @@ input[type="submit"]:hover {
         display: block; /* Convertir a bloque para ocupar toda la línea */
         margin: 0 auto 10px; /* Centrar los elementos del menú y agregar espacio entre ellos */
     }
-}
 
-/* Estilos específicos para dispositivos de pantalla grande (PC) */
-@media only screen and (min-width: 768px) {
-    /* No hay ajustes necesarios, se mantienen los estilos originales */
+    .container {
+        padding: 0 10px; /* Ajustar el padding del contenedor para evitar desbordamientos */
+    }
+
+    header .logo {
+        margin-right: 0; /* Quitar el margen derecho del logo en dispositivos móviles */
+    }
+
+    header h1 {
+        float: none; /* Quitar el flotado */
+        margin: 0 auto 20px; /* Centrar el texto del encabezado */
+    }
 }
