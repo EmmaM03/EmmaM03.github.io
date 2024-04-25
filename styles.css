@@ -166,3 +166,38 @@ input[type="submit"]:hover {
     background-color: #f3f1eb; /* Crema claro */
     padding: 40px 0; /* Ajuste de espacio */
 }
+
+/* Estilos generales para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    header {
+        text-align: center; /* Centrar el contenido */
+        padding: 10px; /* Agregar espacio interno */
+    }
+
+    header .logo {
+        float: none; /* Quitar el flotado */
+        display: block; /* Convertir a bloque para centrar */
+        margin: 0 auto 10px; /* Centrar el logo y agregar espacio en la parte inferior */
+    }
+
+    header h1 {
+        float: none; /* Quitar el flotado */
+        display: block; /* Convertir a bloque para centrar */
+        margin: 0 auto 20px; /* Centrar el texto y agregar espacio en la parte inferior */
+    }
+
+    nav ul {
+        float: none; /* Quitar el flotado */
+        text-align: center; /* Centrar los elementos del menú */
+    }
+
+    nav ul li {
+        display: block; /* Convertir a bloque para ocupar toda la línea */
+        margin: 0 auto 10px; /* Centrar los elementos del menú y agregar espacio entre ellos */
+    }
+}
+
+/* Estilos específicos para dispositivos de pantalla grande (PC) */
+@media only screen and (min-width: 768px) {
+    /* No hay ajustes necesarios, se mantienen los estilos originales */
+}
