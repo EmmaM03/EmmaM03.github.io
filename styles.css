@@ -88,10 +88,14 @@ h2 {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ajustar al ancho completo */
+    margin: 0 auto; /* Centrar horizontalmente */
+    box-sizing: border-box; /* Incluir el padding y el border en el ancho total */
 }
 
 .porque-comprar ul {
     padding-left: 20px;
+    margin-top: 0; /* Eliminar el margen superior */
 }
 
 .porque-comprar li {
